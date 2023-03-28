@@ -9,22 +9,21 @@
         integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp" crossorigin="anonymous">
 </head>
 
-<body>
-    <header>
-        <h1>Phone Hunter API Practice</h1>
+<body class="container">
+    <header class="bg-success-subtle py-3">
+        <h1 class="text-success text-center fs-1 fw-bold">Phone Hunter API Practice</h1>
     </header>
-    <main class="container">
-        <div class="row row-cols-1 row-cols-md-3 g-4">
-            <div class="col">
-                <div class="card">
-                    <img src="..." class="card-img-top" alt="...">
-                    <div class="card-body">
-                        <h5 class="card-title">Card title</h5>
-                        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to
-                            additional content. This content is a little bit longer.</p>
-                    </div>
-                </div>
+    <main>
+        <section>
+            <div class="my-3">
+                <input id="search-field" type="email" class="form-control w-50 p-2" id="exampleFormControlInput1"
+                    placeholder="Search Your Phone">
             </div>
+            <button id="search-btn" class="btn btn-primary text-white fs-5 fw-bold">Search Button</button>
+        </section>
+        <!-- Phones Container  -->
+        <div id="phones-container" class="row row-cols-1 row-cols-md-3 g-4 mt-3">
+
         </div>
     </main>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/js/bootstrap.bundle.min.js"
